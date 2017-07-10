@@ -9,6 +9,8 @@ else
   gemspec development_group: :gem_build_tools
 end
 
+gem 'rb-inotify', path: '..'
+
 require 'rbconfig'
 
 case RbConfig::CONFIG['target_os']
