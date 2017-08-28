@@ -10,8 +10,8 @@ def ci?
 end
 
 if ci?
-  require 'coveralls'
-  Coveralls.wear!
+  #require 'coveralls'
+  #Coveralls.wear!
 end
 
 Dir["#{File.dirname(__FILE__)}/support/**/*.rb"].each { |f| require f }
